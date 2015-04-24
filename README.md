@@ -1,1 +1,0 @@
-# geekoftheweek.github.io
