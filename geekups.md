@@ -28,12 +28,7 @@ computers.  All of the above.
 ## When
 
 Soon.  My goal is to start small, sometime in summer or early autumn of 2015.
-
-## Who
-
-Everyone, eventually.  While they're hosted in my home, it will be limited to
-those I know personally.  If you're interested in attending, [drop me a
-line][email]).
+If you'd like to be notified when we launch, [let me know][email].
 
 ## Where
 
@@ -41,16 +36,29 @@ To be determined.  I may host the first few events in my home, but hope to
 quickly scale beyond that.  The local public library seems like an obvious next
 step.
 
-## How you can help
+## Who
+
+Everyone, eventually.  While they're hosted in my home, it will be limited to
+those I know personally.  If you're interested in attending, [drop me a
+line][email].
+
+## Contributing
 
 For starters, I don't know what to call these things.  Hack nights?  Tech-ups?
-Tech nights?  Hacks and Snacks?  Geek-Ups?  If you have ideas, I'd love to
-[hear them][email].
+Tech nights?  Hacks and Snacks?  Geek-Ups?  If you have ideas, [I'd love to
+hear them][email].
 
-If you want to donate hardware (especially Arduino, Raspberry Pi, usb drives,
-etc) or software licenses, that would be extremely helpful as we get rolling.
-Alternately, if you'd like to make a [monetary donation][cash-me], I'll use it
-to purchase hardware and software licenses for participants to use.
+Also, I have a list of projects and topics I'd like to cover, but I'm always on
+the lookout for more.  If you see something that would make a good beginner
+project, send me a link!
+
+Finally, it's going to take some resources to accomplish the sort of hands-on
+experience I'm hoping for, and scale it up so that the general public can
+attend.  If you are willing and able to donate hardware (especially Arduino,
+Raspberry Pi, usb drives, etc) or software licenses, that will help a lot to
+get us rolling.  rolling.  Alternately, if you'd like to make a [monetary
+donation][cash-me] for the purchase of hardware or software, it will make a big
+difference and be greatly appreciated.
 
 [email]: mailto:warrenjfrancis@gmail.com?subject=GeekUps
 [cash-me]: https://cash.me/$warrenfrancis
