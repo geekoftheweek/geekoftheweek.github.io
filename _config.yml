@@ -1,8 +1,8 @@
 # Site settings
-title: A Breadth-First Life
-email: warren.j.francis@gmail.com
+title: Byte-Aligned Words
+email: warrenjfrancis@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Interesting stuff I'm learning and doing.
+  My personal dumping ground for some of the interesting stuff I'm learning and doing.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://geekoftheweek.github.io" # the base hostname & protocol for your site
 twitter_username: maybe_warren
