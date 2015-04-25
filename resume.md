@@ -7,8 +7,8 @@ permalink: /resume/
 ## Ten Second Summary
 
 I'm a developer with experience in analysis, linguistics, machine learning,
-cryptography, games programming, augmented reality, virtual reality.  I want to
-solve interesting problems, make people happy, and grow.  Contact me at
+cryptography, games programming, augmented reality, and virtual reality.  I
+want to solve interesting problems, make people happy, and grow.  Contact me at
 [warrenjfrancis@gmail.com](mailto:warrenjfrancis@gmail.com?subject=Resume).
 
 ## Professional Experience
@@ -22,8 +22,8 @@ The Scotts Miracle-Gro Company<br/>Marysville, OH (April 2014 -- Present)
 reality hardware, and telepresence solutions) by working closely with hardware
 vendors and then developing proof-of-concept software to demonstrate business
 cases.
-* Creative coding and rapid prototyping, with AngularJS and Python on Google App
-Engine.
+* Creative coding and rapid prototyping, with AngularJS and Python on Google
+App Engine.
 
 ### Sofware Engineer
 
@@ -72,8 +72,8 @@ requirements.
 Big Lots, Inc.<br/>Columbus, OH (June 2008 -- September 2008)
 
 * Mined transaction-level retail data from 1,300+ stores to find payroll
-inefficiencies and product affinities, then developed explanatory visualizations
-for the complex results
+inefficiencies and product affinities, then developed explanatory
+visualizations for the complex results
 
 ### Student Technology Consultant
 
@@ -81,8 +81,8 @@ The Ohio State University: Humanities Information Systems<br/>Columbus, OH
 (January 2007 -- June 2008)
 
 * Tutored faculty and staff individually, building their confidence and skills
-in using the newest instructional technologies.  Researched new technologies for
-classroom application
+in using the newest instructional technologies.  Researched new technologies
+for classroom application
 
 ## Education
 
