@@ -1,8 +1,8 @@
 # Site settings
-title: Byte-Aligned Words
+title: Warren Francis
 email: warrenjfrancis@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  My personal dumping ground for some of the interesting stuff I'm learning and doing.
+  I'm a professional software developer in central Ohio.  This is a dumping ground for some of the interesting stuff I'm learning and doing.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://geekoftheweek.github.io" # the base hostname & protocol for your site
 twitter_username: maybe_warren

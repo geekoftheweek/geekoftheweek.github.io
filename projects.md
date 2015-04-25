@@ -39,6 +39,8 @@ did not win the hackathon.
 
 ### Global Game Jam Entry
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FICBTcWW3s0" frameborder="0" allowfullscreen></iframe>
+
 A 2D Unity-based game my team and I made in 48 hours for the 2015 Global Game
 Jam.  The idea is that you play a pixel on its journey through various retro
 arcade games.  Win a game and you transition to another one -- lose, and you
@@ -59,24 +61,31 @@ range, and *shockingly accurate* as Nerf guns go.
 
 ### PyWeek Entries
 
-A couple of tech demos that I never finished.  The first is a cat getting
-pulled on a trash can lid.  Make him jump over obstacles -- but keep him
-fuzzy-side-up, or he loses one of his nine lives.  The other is a little
-wobbling easter egg.  He can hop, lean, and shoot jelly beans with a kick.  He
-gets nervous if it looks like he's going to fall over, and it's game over if he
-does.
+A couple of tech demos that I never finished.
+
+<img width="560" src="https://pyweek.org/media/dl/7/StreetSurf/final.png" />
+
+The first is [a cat getting pulled on a trash can lid][street-surf].  Make him
+jump over obstacles -- but keep him fuzzy-side-up, or he loses one of his nine
+lives. 
+
+<img width="560" src="https://pyweek.org/media/dl/10/SpareTime/EasterWobble.png" />
+
+The other is [a little wobbling easter egg][easter-wobble].  He can hop, lean,
+and shoot jelly beans with a kick.  He gets nervous if it looks like he's going
+to fall over, and it's game over if he does.
 
 ### Transposition Cipher cracker
 
-A tool to crack a transposition cipher using a genetic algorithm.  I was taking
-a codemaking and codebreaking course in college, and I was having a hard time
-with one of the homework assignments, so I wrote this software to solve the
-cipher for me.  It didn't find the complete solution, but it found enough of it
-that I could recognize what the rest was supposed to be.
+A tool to crack a transposition cipher using a genetic algorithm.  I took a
+codemaking and codebreaking course in college, and I had a hard time with one
+of the homework assignments, so (with permission!) I wrote this software to
+solve the cipher for me.  It didn't find the complete solution, but it found
+enough of it that I could recognize what the rest was supposed to be.
 
 ### Electroluminescent Gloves
 
-A project I made while home for Spring Break.  Cotton gloves with
+A project I made while home from college for spring break.  Cotton gloves with
 electroluminescent wire threaded along the palm and fingers, for using sign
 language in the dark.
 
@@ -96,3 +105,5 @@ script that would scrape the GPS location of the bus I wanted to catch, and
 text me if it was running late, so I'd know whether to run to the stop, or give
 up and go to the library.
 
+[street-surf]:   https://pyweek.org/e/SpareTime/
+[easter-wobble]: https://pyweek.org/e/StreetSurf/

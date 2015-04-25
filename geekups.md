@@ -41,10 +41,16 @@ To be determined.  I may host the first few events in my home, but hope to
 quickly scale beyond that.  The local public library seems like an obvious next
 step.
 
-## What's with that name?
+## How you can help
 
-Yeah, I don't know what to call them.  Hack nights?  Tech-ups?  Tech nights?
-Hacks and Snacks?  Geek-Ups?  I've got nothing.
-[Help][email].  Please.
+For starters, I don't know what to call these things.  Hack nights?  Tech-ups?
+Tech nights?  Hacks and Snacks?  Geek-Ups?  If you have ideas, I'd love to
+[hear them][email].
+
+If you want to donate hardware (especially Arduino, Raspberry Pi, usb drives,
+etc) or software licenses, that would be extremely helpful as we get rolling.
+Alternately, if you'd like to make a [monetary donation][cash-me], I'll use it
+to purchase hardware and software licenses for participants to use.
 
 [email]: mailto:warrenjfrancis@gmail.com?subject=GeekUps
+[cash-me]: https://cash.me/$warrenfrancis
