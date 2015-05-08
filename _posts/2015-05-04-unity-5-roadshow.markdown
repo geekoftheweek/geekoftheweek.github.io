@@ -171,7 +171,7 @@ but I still never got it working properly.  The idea was to trigger a render
 probe update after every change in the emissive intensity of a light panel.  It
 worked mostly, and performance was still really good, but it looked like the cubemap was always one frame behind.  Much better than any of the other options, though, which left the scene looking like a yuletide nightclub.
 
-![Out-of-sync reflection map animated gif](/images/unity-roadshow-flicker2.gif)
+![Out-of-sync reflection map animated gif](/images/unity-5-roadshow-flicker2.gif)
 
 ## Navigation and AI, Explosions and Audio
 
