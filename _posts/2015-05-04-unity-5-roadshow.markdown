@@ -49,7 +49,7 @@ default Directional Light into the slot for the procedural skybox's Sun.  Then
 I made a script that slowly spun the Directional Light on the x-axis.  Voila.
 Day/night cycle, with beautiful global illumination.
 
-![Day/night cycle animated gif](images/unity-5-roadshow-daynight.gif)
+![Day/night cycle animated gif](/images/unity-5-roadshow-daynight.gif)
 
 ## Materials and Emission
 
@@ -108,7 +108,7 @@ void SetEmission (float intensity) {
 
 I was super happy with how it looked!
 
-![Flickering light panel animated gif](images/unity-5-roadshow-flicker1.gif)
+![Flickering light panel animated gif](/images/unity-5-roadshow-flicker1.gif)
 
 ## Mecanim and Reflection Probes
 
