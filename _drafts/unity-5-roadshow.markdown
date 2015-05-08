@@ -8,6 +8,8 @@ On Saturday I attended the Columbus, Ohio session of the Unity 5 Roadshow,
 hosted by Microsoft and presented by Mike Geig.  I had a great time, and wanted
 to capture some of the things I learned before the memories fade.
 
+## About Me
+
 To give you some context, I'm a programmer (and a "wannabe" artist) who's used
 Unity almost daily for about ten months now.  I'm no pro, but I can get stuff
 done.  I've made a couple of small 2D games, some pretty complicated 3D
@@ -17,6 +19,8 @@ that I'd fill in some gaps in my knowledge and hopefully pick up a few tricks
 and best practices.  I definitely learned some new things, mostly centered
 around realtime global illumination and audio.  More on that in a bit.
 
+## Arranging a Scene
+
 We were all given some example sci-fi themed First-Person Shooter assets: a
 straight hallway segment, a corner hallway segment, and a balcony.  Mike
 quickly walked us through the basics of the Unity GUI, and then showed us how
@@ -24,6 +28,8 @@ to snap objects together by vertices, by holding the `V` key, then clicking and
 dragging a vertex on one object up to a vertex on another object.  Somehow I
 had never stumbled across this shortcut on my own, so it was fun to learn a new
 trick right off the bat.
+
+## Lighting and Global Illumination
 
 After we had assembled our own hallway with a corner or two, we learned about
 lighting.  Mike walked us through disabling the default directional light, to
@@ -42,6 +48,10 @@ day/night cycle.  First I opened up the Lighting window and dragged the scene's
 default Directional Light into the slot for the procedural skybox's Sun.  Then
 I made a script that slowly spun the Directional Light on the x-axis.  Voila.
 Day/night cycle, with beautiful global illumination.
+
+![Day/night cycle animated gif](images/unity-5-roadshow-daynight.gif)
+
+## Materials and Emission
 
 Moving on, Mike demonstrated physically-based rendering by showing us how to
 tweak the parameters on the already-defined materials in the scene -- namely
@@ -70,7 +80,52 @@ its contributions to the global illumination of the scene.  The final code was:
 
 {% highlight csharp %}
 // TODO: Add code!
+void Update() {
+  if (Time.time > _nextChange) {
+    _nextChange = Time.time + Random.Range(minChangeTime, maxChangeTime);
+    SetEmission(Random.Range(0, 1f));
+  }
+}
+
+void SetEmission (float intensity) {
+  if (intensity < 0.5f) {
+    intensity = 0f;
+  } else {
+    intensity = 1f;
+  }
+  Renderer renderer = GetComponent<Renderer>();
+  Material mat = renderer.material;
+
+  // Set the material's emissive color
+  Color newMaterialColor = emissionColor * intensity;
+  mat.SetColor("_EmissionColor", newMaterialColor);
+
+  // Set the material's GI contribution
+  Color newGIColor = emissionColor * intensity * maxEmission;
+  DynamicGI.SetEmissive(renderer, newGIColor);
+}
 {% endhighlight %}
 
-I was super happy with how it looked!  There was a hidden problem, but I'll get
-to that in a minute.
+I was super happy with how it looked!
+
+![Flickering light panel animated gif](images/unity-5-roadshow-flicker1.gif)
+
+## Mecanim and Reflection Probes
+
+TODO: Bazooka animations
+
+Next, Mike taught us about reflection probes.  We positioned probes at about
+eye level, with bounding boxes that *just* encompassed all of the hallway
+geometry, plus a little extra to overlap with the next probe's bounding box.
+Mike warned that Unity can blend between two reflection probes, but not
+three, so try to avoid areas where more than two probes' regions overlap.
+
+TODO: more about reflection probes
+
+## Navigation and AI
+
+TODO: Enemy drone and navigation
+
+## Explosions and Audio
+
+TODO: Audio groups and ducking

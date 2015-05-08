@@ -1,2 +1,5 @@
 _site
 .sass-cache
+images/Thumbs.db
+*.swp
+_drafts/unity-5-roadshow.markdown~
