@@ -2,7 +2,6 @@
 layout: post
 title:  "Unity 5 Roadshow"
 date:   2015-05-04 20:28:00
-categories: unity games
 ---
 Last Saturday I attended the Columbus, Ohio session of the Unity 5 Roadshow,
 hosted by Microsoft and presented by Mike Geig.  I had a great time, and
