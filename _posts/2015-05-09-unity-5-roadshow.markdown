@@ -144,17 +144,18 @@ I was super happy with how it looked!
 
 Next we learned how to control animations.  First, we added a bazooka model as
 a child of our FPS character controller.  Next, we created an
-AnimatorController asset, added an Animator component to the bazooka, dragged
-the AnimatorController into the Animator.  Once these were connected, opened
-the AnimatorController and started wiring up Mecanim states.  This was as easy
-as dragging animation clips into the controller and then right-clicking to
-create transitions between them.  The default behavior is to follow the
-transition when the current animation is done playing, but we set a "Shoot"
-trigger to force the transition instead.
+AnimatorController asset, added an Animator component to the bazooka, and
+dragged the AnimatorController into the Animator.  Once these were connected,
+we opened the AnimatorController and started wiring up Mecanim states.  This
+was as easy as dragging animation clips into the controller and then
+right-clicking to create transitions between them.  The default behavior is for
+the state machine to transition to the next state when the current animation
+finishes playing, but we set a "Shoot" trigger to force the transition instead.
 
 Mike had us iterate on the state machine a few times, starting simple and then
 demonstrating some new features of Unity 5.  Unfortunately I can't remember all
-of those iterations, but the final base state machine looked like this:
+of those in-between iterations, but the final base state machine looked like
+this:
 
 ![Shooting animation state machine](/images/unity-5-roadshow-state-machine1.png)
 
