@@ -19,6 +19,8 @@ hoped to fill in some knowledge gaps, pick up a some new tricks, and observe
 some best practices.  I definitely learned some new things, mostly centered
 around realtime global illumination and audio.  More on that in a bit.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0V9-W8WDxT4" frameborder="0" allowfullscreen></iframe>
+
 ## Arranging a Scene
 
 We were all given some example sci-fi themed First-Person Shooter assets: a
