@@ -56,7 +56,7 @@ Finally, it's going to take some resources to accomplish the sort of hands-on
 experience I'm hoping for, and scale it up so that the general public can
 attend.  If you are willing and able to donate hardware (especially Arduino,
 Raspberry Pi, usb drives, etc) or software licenses, that will help a lot to
-get us rolling.  rolling.  Alternately, if you'd like to make a [monetary
+get us rolling.  Alternately, if you'd like to make a [monetary
 donation][cash-me] for the purchase of hardware or software, it will make a big
 difference and be greatly appreciated.
 

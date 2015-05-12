@@ -82,7 +82,7 @@ We then experimented with light-emitting materials, by creating two ceiling
 panels in the corner hallway segment and setting their materials to emissive --
 one red, one green.  We cranked their emission values up to around 3, and when
 the global illumination calculations finished, we could see an impressively
-realistic glow from the panels, with out adding any traditional lights to the
+realistic glow from the panels, without adding any traditional lights to the
 scene.  In Unity 4, I had quickly learned not to fiddle with the
 lights unless absolutely necessary -- baking took too long and was too fickle
 to get right.  Going from that to Unity 5's system was a refreshing
